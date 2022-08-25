@@ -1,13 +1,17 @@
 import { Injectable } from '@nestjs/common'
 import { DistributeCardsResponse } from '../response/distribute-cards.response'
+import { generateRamdomPokerCards } from '../utils/distribute-cards.utils'
 
 @Injectable()
 export class DistributeCardsService {
     exec(): DistributeCardsResponse {
-        // TODO: ランダムにカードを配布する
+
+        const randomPokerCards: string = generateRamdomPokerCards()
+        
         const distributeCards: DistributeCardsResponse = {
-            cards: 'h1,h2,h3,h4,h5'
+            cards: randomPokerCards
         }
+
         return distributeCards
     }
 }
