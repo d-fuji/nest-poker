@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common'
 import { PokerGameController } from './poker-game.controller'
-import { DistributeCardsService } from './service/distribute-cards.service'
-import { JudgePokerWinnerService } from './service/judge-poker-winner.service'
+import { DistributeCardsService } from './services/distribute-cards.service'
+import { JudgePokerWinnerService } from './services/judge-poker-winner.service'
 
 @Module({
   controllers: [PokerGameController],

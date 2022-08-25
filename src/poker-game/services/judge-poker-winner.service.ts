@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common'
 import { JudgePokerWinnerDto } from '../dto/judge-poker-winner.dto'
-import { JudgePokerWinnerResponse, JudgePokerWinnerResultsItem, JudgePokerWinnerErrorsItem } from '../response/judge-poker-winner.response'
+import { JudgePokerWinnerResponse, JudgePokerWinnerResultsItem, JudgePokerWinnerErrorsItem } from '../responses/judge-poker-winner.response'
 import { judgePokerRole, judgePokerWinner, validatePokerCards } from '../utils/judge-poker-winner.utils'
 
 @Injectable()

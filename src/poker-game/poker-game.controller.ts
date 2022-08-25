@@ -1,9 +1,9 @@
 import { Body, Controller, Get, Post } from '@nestjs/common'
-import { JudgePokerWinnerService } from './service/judge-poker-winner.service'
+import { JudgePokerWinnerService } from './services/judge-poker-winner.service'
 import { JudgePokerWinnerDto } from './dto/judge-poker-winner.dto'
-import { JudgePokerWinnerResponse } from './response/judge-poker-winner.response'
-import { DistributeCardsService } from './service/distribute-cards.service'
-import { DistributeCardsResponse } from './response/distribute-cards.response'
+import { JudgePokerWinnerResponse } from './responses/judge-poker-winner.response'
+import { DistributeCardsService } from './services/distribute-cards.service'
+import { DistributeCardsResponse } from './responses/distribute-cards.response'
 
 @Controller()
 export class PokerGameController {
