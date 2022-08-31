@@ -1,3 +1,4 @@
+/** TODO:削除する */
 import { Injectable } from '@nestjs/common'
 import { DistributeCardsResponse } from '../responses/distribute-cards.response'
 import { generateRamdomPokerCards } from '../utils/distribute-cards.utils'

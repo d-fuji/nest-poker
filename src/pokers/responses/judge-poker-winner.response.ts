@@ -1,15 +1,15 @@
-
+/* TODO:削除する */
 export type JudgePokerWinnerResultsItem = {
     requestId: string,
     cards: string,
-    yaku: string,
+    role: string,
     strongest: boolean
 }
 
 export type JudgePokerWinnerErrorsItem = {
     requestId: string,
     cards: string
-    errorMessages: string[]
+    messages: string[]
 }
 
 export type JudgePokerWinnerResponse = {

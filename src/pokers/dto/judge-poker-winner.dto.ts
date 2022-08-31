@@ -1,4 +1,5 @@
-import { ArrayMaxSize, ArrayMinSize, IsArray, MaxLength, MinLength } from 'class-validator';
+/** TODO:削除する */
+import { ArrayMaxSize, ArrayMinSize, IsArray } from 'class-validator';
 
 export class JudgePokerWinnerDto {
     @IsArray({
